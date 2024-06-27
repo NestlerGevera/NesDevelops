@@ -1,0 +1,179 @@
+/*Responsive Codes*/
+/*Header*/
+@media (max-width: 1309px) {
+    #header-links {
+        width: 23%;
+    }
+}
+
+@media (max-width: 1252px) {
+    #header-links {
+        width: 24%;
+    }
+}
+
+@media (max-width: 1201px) {
+    #header-links {
+        width: 25%;
+    }
+}
+
+@media (max-width: 1152px) {
+    #header-links {
+        width: 26%;
+    }
+}
+
+@media (max-width: 1107px) {
+    #header-links {
+        width: 27%;
+    }
+}
+
+@media (max-width: 1066px) {
+    #header-links {
+        width: 28%;
+    }
+}
+
+@media (max-width: 1028px) {
+    #header-links {
+        width: 29%;
+    }
+}
+
+
+@media (max-width: 993px) {
+    #header-links {
+        width: 30%;
+    }
+}
+
+@media (max-width: 960px) {
+    #header-links {
+        width: 31%;
+    }
+}
+
+@media (max-width: 929px) {
+    #header-links {
+        width: 32%;
+    }
+}
+
+@media (max-width: 900px) {
+    #header-links {
+        width: 33%;
+    }
+}
+
+@media (max-width: 872px) {
+    #header-links {
+        width: 34%;
+    }
+}
+
+@media (max-width: 847px) {
+    #header-links {
+        width: 35%;
+    }
+}
+
+@media (max-width: 823px) {
+    #header-links {
+        width: 36%;
+    }
+}
+
+@media (max-width: 800px) {
+    #header-links {
+        width: 37%;
+    }
+}
+
+@media (max-width: 778px) {
+    #header-links {
+        width: 38%;
+    }
+}
+
+@media (max-width: 758px) {
+    #header-links {
+        width: 39%;
+    }
+}
+
+@media (max-width: 738px) {
+    #header-links {
+        width: 40%;
+    }
+}
+
+@media (max-width: 720px) {
+    #header-links {
+        width: 41%;
+    }
+}
+
+@media (max-width: 702px) {
+    #header-links {
+        width: 42%;
+    }
+}
+
+@media (max-width: 685px) {
+    #header-links {
+        width: 43%;
+    }
+}
+
+@media (max-width: 669px) {
+    #header-links {
+        width: 44%;
+    }
+}
+
+@media (max-width: 654px) {
+    #header-links {
+        width: 45%;
+    }
+}
+
+@media (max-width: 640px) {
+    #header-links {
+        width: 46%;
+    }
+}
+
+@media (max-width: 626px) {
+    #header-links {
+        width: 47%;
+    }
+}
+
+@media (max-width: 612px) {
+    #header-links {
+        width: 48%;
+    }
+}
+
+@media (max-width: 600px) {
+    #header-links {
+        width: 49%;
+    }
+}
+
+@media (max-width: 587px) {
+    #header-links {
+        width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    #header-links {
+        display: none;
+    }
+    #more-icon {
+        display: block;
+    }
+}
