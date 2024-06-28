@@ -74,9 +74,116 @@ body {
     height: 80%;
 }
 
-.intro-section {
+.content-container {
     background-color: rgb(48, 106, 156);
     height: 1000px;
+}
+
+/*Introduction Code*/
+.intro-section {
+    width: 100%;
+    height: 700px;
+    background-color: rgb(39, 78, 112);
+    display: flex;
+}
+
+.intro-content,
+.intro-img {
+    width: 50%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.intro-content-container {
+    width: 500px;
+    height: 50%;
+    display: grid;
+    place-items: center;
+}
+
+#intro-content-inside-h1 {
+    font-size: 3em;
+    font-family: "Playwrite US Trad", Poppins, Arial, Helvetica, sans-serif;
+    color: #B3CAF5;
+    line-height: 1.3;
+}
+
+#intro-content-inside-p {
+    color: wheat;
+    margin-top: 1em;
+}
+
+.intro-img-container {
+    background-color: aqua;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    box-shadow: 40px 20px #293b5c, -40px -20px #B3CAF5;
+    overflow: hidden;
+}
+
+#intro-img-element {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+}
+
+#intro-img-element:hover {
+    transform: scale(1.1);
+}
+
+.intro-contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.intro-facebook, 
+.intro-instagram, 
+.intro-tiktok {
+    width: 30px;
+    height: 30px;
+}
+
+.intro-facebook {
+    background-image: url('/assets/facebook-icon-darkblue.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro-instagram {
+    background-image: url('/assets/instagram-icon-darkblue.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro-tiktok {
+    background-image: url('/assets/tiktok-icon-darkblue.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#intro-fb, 
+#intro-insta,
+#intro-tiktok {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+#intro-fb:hover, 
+#intro-insta:hover,
+#intro-tiktok:hover {
+    transform: translate(-10px, -10px);
 }
 
 /*Footer Code*/
