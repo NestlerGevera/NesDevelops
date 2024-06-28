@@ -109,9 +109,89 @@ body {
     line-height: 1.3;
 }
 
+#intro-content-inside-h2 {
+    font-size: 1.5em;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    color: #B3CAF5;
+    line-height: 1.3;
+    margin-top: 0.5em;
+}
+
 #intro-content-inside-p {
     color: wheat;
     margin-top: 1em;
+}
+
+.intro-btns {
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+#learn-more-btn-a {
+    border: 3px solid #B3CAF5;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: #B3CAF5;
+    transition: 0.3s;
+}
+
+#learn-more-btn-a:hover {
+    border: 3px solid #B3CAF5;
+    background-color: #B3CAF5;
+    color: rgb(39, 78, 112);
+}
+
+#hire-me-btn-a {
+    border: 3px solid #B3CAF5;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: #B3CAF5;
+    transition: 0.3s;
+}
+
+#hire-me-btn-a:hover {
+    border: 3px solid #B3CAF5;
+    background-color: #B3CAF5;
+    color: rgb(39, 78, 112);
+}
+
+/* .learn-more-btn {
+    border: 3px solid #B3CAF5;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.learn-more-btn a {
+    color: #B3CAF5;
+}
+
+.learn-more-btn a:hover {
+    color: rgb(39, 78, 112);
+}
+
+.learn-more-btn:hover {
+    border: 3px solid #bdb3f5;
+    background-color: #bdb3f5;
+}
+
+.hire-me-btn {
+    border: 3px solid #293b5c;
+    padding: 5px 10px;
+    border-radius: 20px;
+
+}
+
+.hire-me-btn a {
+    color: #72809b;
+} */
+
+.learn-more-btn a,
+.hire-me-btn a {
+    text-decoration: none;
+    font-weight: 700;
 }
 
 .intro-img-container {
