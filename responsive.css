@@ -40,6 +40,15 @@
     #header-links {
         width: 29%;
     }
+    .intro-section {
+        display: block;
+        height: 1100px;
+    }
+    .intro-content, 
+    .intro-img {
+        height: 50%;
+        margin: 0 auto;
+    }
 }
 
 
@@ -58,6 +67,14 @@
 @media (max-width: 929px) {
     #header-links {
         width: 32%;
+    }
+    .intro-content-container {
+        width: 100%;
+    }
+    .intro-img-and-container,
+    .intro-img-container {
+        width: 300px;
+        height: 300px;
     }
 }
 
@@ -82,6 +99,9 @@
 @media (max-width: 823px) {
     #header-links {
         width: 36%;
+    }
+    .intro-content {
+        width: 60%;
     }
 }
 
@@ -125,6 +145,9 @@
     #header-links {
         width: 43%;
     }
+    .intro-content {
+        width: 80%;
+    }
 }
 
 @media (max-width: 669px) {
@@ -161,6 +184,17 @@
     #header-links {
         width: 49%;
     }
+    .intro-img {
+        width: 75%;
+    }
+    .intro-img-and-container,
+    .intro-img-container {
+        width: 200px;
+        height: 200px;
+    }
+    .intro-contacts {
+        width: 65%;
+    }
 }
 
 @media (max-width: 587px) {
@@ -175,5 +209,182 @@
     }
     #more-icon {
         display: block;
+    }
+    .intro-content {
+        width: 75%;
+    }
+}
+
+@media (max-width: 521px) {
+    #header-links {
+        display: none;
+    }
+    #more-icon {
+        display: block;
+    }
+    .intro-content {
+        width: 90%;
+    }
+}
+
+@media (max-width: 434px) {
+    #header-links {
+        display: none;
+    }
+    #more-icon {
+        display: block;
+    }
+    .intro-content {
+        transform: scale(0.9);
+    }
+}
+
+@media (max-width: 395px) {
+    #header-links {
+        display: none;
+    }
+    #more-icon {
+        display: block;
+    }
+    .intro-img-and-container,
+    .intro-img-container {
+        width: 150px;
+        height: 150px;
+    }
+    .intro-contacts {
+        width: 80%;
+    }
+}
+
+@media (max-width: 374px) {
+    #header-links {
+        display: none;
+    }
+    #more-icon {
+        display: block;
+    }
+    .intro-img-and-container,
+    .intro-img-container {
+        width: 150px;
+        height: 150px;
+    }
+    .intro-contacts {
+        transform: scale(0.8);
+    }
+}
+
+@media (max-width: 363px) {
+    #header-links {
+        display: none;
+    }
+    #more-icon {
+        display: block;
+    }
+    .intro-img-and-container,
+    .intro-img-container {
+        width: 100px;
+        height: 100px;
+    }
+    .intro-contacts {
+        width: 100%;
+    }
+}
+
+@media (max-width: 349px) {
+    #header-links {
+        display: none;
+    }
+    #more-icon {
+        display: block;
+    }
+    .intro-img-and-container,
+    .intro-img-container {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 340px) {
+    #header-links {
+        display: none;
+    }
+    #more-icon {
+        display: block;
+    }
+    .intro-img {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 313px) {
+    #header-links {
+        display: none;
+    }
+    #more-icon {
+        display: block;
+    }
+    .intro-content {
+        transform: translate(0, -100px);
+    }
+    .intro-img {
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 294px) {
+    #header-links {
+        display: none;
+    }
+    #more-icon {
+        display: block;
+    }
+}
+
+@media (max-width: 267px) {
+    #header-links {
+        display: none;
+    }
+    #more-icon {
+        display: block;
+    }
+    .intro-content {
+        width: 95%;
+    }
+    .intro-content-container {
+        width: 100%;
+    }
+    .intro-content-inside {
+        width: 100%;
+    }
+    .intro-btns {
+        width: 100%;
+    }
+    .intro-contacts {
+        width: 100%;
+    }
+}
+
+@media (max-width: 255px) {
+    .intro-content {
+        transform: scale(0.8) translate(0, -200px);
+    }
+    .intro-img {
+        transform: translate(0, -50px);
+    }
+    .intro-section {
+        height: 1000px;
+    }
+}
+
+@media (max-width: 246px) {
+    .intro-img {
+        transform: scale(0.8);
+    }
+}
+
+@media (max-width: 236px) {
+    .intro-btns {
+        width: 230px;
+        transform: scale(0.9);
     }
 }

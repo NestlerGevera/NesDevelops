@@ -20,6 +20,7 @@ body {
 
 .navbar {
     position: fixed;
+    z-index: 100;
     width: 100%;
     height: 60px;
     background-color: transparent; /*#252525*/
@@ -77,6 +78,13 @@ body {
 .content-container {
     background-color: rgb(48, 106, 156);
     height: 2000px;
+}
+
+/*landing-section*/
+.landing-section {
+    background-color: rgb(48, 106, 156);
+    width: 100%;
+    height: 700px;
 }
 
 /*Introduction Code*/
@@ -202,21 +210,21 @@ body {
 }
 
 .intro-facebook {
-    background-image: url('/assets/facebook-icon-darkblue.png');
+    background-image: url('facebook-icon-darkblue.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .intro-instagram {
-    background-image: url('/assets/instagram-icon-darkblue.png');
+    background-image: url('instagram-icon-darkblue.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .intro-tiktok {
-    background-image: url('/assets/tiktok-icon-darkblue.png');
+    background-image: url('tiktok-icon-darkblue.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
