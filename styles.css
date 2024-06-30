@@ -84,8 +84,46 @@ body {
 .landing-section {
     background-color: rgb(48, 106, 156);
     width: 100%;
-    height: 700px;
+    height: 100vh;
 }
+
+.landing-section-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.landing-1,
+.landing-2 {
+    width: 50%;
+    height: 100vh;
+}
+
+.landing-1 {
+    background-color: rgb(48, 106, 156);
+    transition: 1s;
+    z-index: 1;
+}
+
+/* .landing-1:hover {
+    width: 75%;
+    box-shadow: 5px 0px 20px #252525;
+    z-index: 2;
+    background-color: rgb(39, 78, 112);
+} */
+
+.landing-2 {
+    background-color: rgb(48, 106, 156);
+    transition: 1s;
+    z-index: 1;
+}
+
+/* .landing-2:hover {
+    width: 75%;
+    box-shadow: -5px 0px 20px #252525;
+    z-index: 2;
+    background-color: rgb(39, 78, 112);
+} */
 
 /*Introduction Code*/
 .intro-section {
@@ -101,6 +139,7 @@ body {
     height: 100%;
     display: grid;
     place-items: center;
+    z-index: 10;
 }
 
 .intro-content-container {
