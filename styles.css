@@ -77,7 +77,7 @@ body {
 
 .content-container {
     background-color: rgb(48, 106, 156);
-    height: 2000px;
+    height: 3000px;
 }
 
 /*landing-section*/
@@ -299,6 +299,111 @@ body {
 #intro-insta:hover,
 #intro-tiktok:hover {
     transform: translate(-10px, -10px);
+}
+
+/*Skills section*/
+.skills-section {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(48, 106, 156);
+    display: grid;
+    place-items: center;
+}
+
+.h1-container {
+    width: 100%;
+    height: 10vh;
+}
+
+.h1-container h1 {
+    font-size: 3em;
+    color: wheat;
+    font-variant: small-caps;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.web-technologies {
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.webtech-1-shadow, 
+.webtech-2-shadow, 
+.webtech-3-shadow, 
+.webtech-4-shadow {
+    width: 230px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #293b5c;
+}
+
+.webtech-1, 
+.webtech-2, 
+.webtech-3, 
+.webtech-4 {
+    width: 230px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #B3CAF5;
+    transition: transform .3s;
+    display: grid;
+    place-items: center;
+}
+
+.webtech-1 img, 
+.webtech-2 img, 
+.webtech-3 img, 
+.webtech-4 img {
+    width: 150px;
+}
+
+.webtech-4 img {
+    transform: translate(0, 30px);
+}
+
+.webtech-1 p, 
+.webtech-2 p, 
+.webtech-3 p, 
+.webtech-4 p {
+    width: 170px;
+    text-align: center;
+}
+
+.webtech-1 p {
+    color: #cf3710;
+    text-shadow: 2px 2px 3px #8b8989;
+}
+
+.webtech-2 p {
+    color: #006ebb;
+    text-shadow: 2px 2px 3px #8b8989;
+}
+
+.webtech-3 p {
+    color: #ffcf32;
+    text-shadow: 2px 2px 3px #7a7878;
+}
+
+.webtech-4 p {
+    color: #7f724d;
+    text-shadow: 2px 2px 3px #8b8989;
+}
+
+.webtech-1:hover, 
+.webtech-2:hover, 
+.webtech-3:hover, 
+.webtech-4:hover {
+    transform: translate(-15px, -15px);
+}
+
+/*Projects section*/
+.projects-section {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(39, 78, 112);
 }
 
 /*Footer Code*/
